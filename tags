@@ -1,0 +1,428 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ACC_MODE	.\fs\namei.c	11;"	d	file:
+ALRMMASK	.\kernel\tty_io.c	10;"	d	file:
+BCD_TO_BIN	.\init\main.c	56;"	d	file:
+CMOS_READ	.\init\main.c	51;"	d	file:
+COLUMNS	.\kernel\console.c	26;"	d	file:
+DAY	.\kernel\mktime.c	16;"	d	file:
+GCC_HEADER	.\tools\build.c	8;"	d	file:
+HOUR	.\kernel\mktime.c	15;"	d	file:
+IN_ORDER	.\kernel\hd.c	52;"	d	file:
+I_CRNL	.\kernel\tty_io.c	31;"	d	file:
+I_NLCR	.\kernel\tty_io.c	30;"	d	file:
+I_NOCR	.\kernel\tty_io.c	32;"	d	file:
+I_UCLC	.\kernel\tty_io.c	29;"	d	file:
+LATCH	.\kernel\sched.c	15;"	d	file:
+LEFT	.\kernel\vsprintf.c	25;"	d	file:
+LINES	.\kernel\console.c	25;"	d	file:
+LOW_MEM	.\mm\memory.c	14;"	d	file:
+LOW_MEM	.\mm\memory.c	16;"	d	file:
+L_CANON	.\kernel\tty_io.c	21;"	d	file:
+L_ECHO	.\kernel\tty_io.c	23;"	d	file:
+L_ECHOCTL	.\kernel\tty_io.c	26;"	d	file:
+L_ECHOE	.\kernel\tty_io.c	24;"	d	file:
+L_ECHOK	.\kernel\tty_io.c	25;"	d	file:
+L_ECHOKE	.\kernel\tty_io.c	27;"	d	file:
+L_ISIG	.\kernel\tty_io.c	22;"	d	file:
+MAP_NR	.\mm\memory.c	22;"	d	file:
+MAX	.\fs\file_dev.c	9;"	d	file:
+MAX_ARG_PAGES	.\fs\exec.c	19;"	d	file:
+MAX_ERRORS	.\kernel\hd.c	20;"	d	file:
+MAX_HD	.\kernel\hd.c	21;"	d	file:
+MAY_EXEC	.\fs\namei.c	19;"	d	file:
+MAY_READ	.\fs\namei.c	21;"	d	file:
+MAY_WRITE	.\fs\namei.c	20;"	d	file:
+MIN	.\fs\file_dev.c	8;"	d	file:
+MINIX_HEADER	.\tools\build.c	7;"	d	file:
+MINUTE	.\kernel\mktime.c	14;"	d	file:
+NPAR	.\kernel\console.c	27;"	d	file:
+NRDEVS	.\fs\char_dev.c	14;"	d	file:
+NRDEVS	.\fs\ioctl.c	11;"	d	file:
+NR_BLK_DEV	.\fs\block_dev.c	7;"	d	file:
+NR_BUFFERS	.\fs\buffer.c	/^int NR_BUFFERS = 0;$/;"	v
+NR_HD	.\kernel\hd.c	33;"	d	file:
+NR_REQUEST	.\kernel\hd.c	22;"	d	file:
+O_CRNL	.\kernel\tty_io.c	36;"	d	file:
+O_LCUC	.\kernel\tty_io.c	38;"	d	file:
+O_NLCR	.\kernel\tty_io.c	35;"	d	file:
+O_NLRET	.\kernel\tty_io.c	37;"	d	file:
+O_POST	.\kernel\tty_io.c	34;"	d	file:
+PAGING_MEMORY	.\mm\memory.c	20;"	d	file:
+PAGING_PAGES	.\mm\memory.c	21;"	d	file:
+PLUS	.\kernel\vsprintf.c	23;"	d	file:
+RESPONSE	.\kernel\console.c	46;"	d	file:
+SCREEN_END	.\kernel\console.c	24;"	d	file:
+SCREEN_START	.\kernel\console.c	23;"	d	file:
+SIGN	.\kernel\vsprintf.c	22;"	d	file:
+SMALL	.\kernel\vsprintf.c	27;"	d	file:
+SPACE	.\kernel\vsprintf.c	24;"	d	file:
+SPECIAL	.\kernel\vsprintf.c	26;"	d	file:
+WAKEUP_CHARS	.\kernel\serial.c	15;"	d	file:
+YEAR	.\kernel\mktime.c	17;"	d	file:
+ZEROPAD	.\kernel\vsprintf.c	21;"	d	file:
+_I_FLAG	.\kernel\tty_io.c	18;"	d	file:
+_L_FLAG	.\kernel\tty_io.c	17;"	d	file:
+_O_FLAG	.\kernel\tty_io.c	19;"	d	file:
+__LIBRARY__	.\init\main.c	1;"	d	file:
+__LIBRARY__	.\lib\_exit.c	1;"	d	file:
+__LIBRARY__	.\lib\close.c	1;"	d	file:
+__LIBRARY__	.\lib\dup.c	1;"	d	file:
+__LIBRARY__	.\lib\execve.c	1;"	d	file:
+__LIBRARY__	.\lib\open.c	1;"	d	file:
+__LIBRARY__	.\lib\setsid.c	1;"	d	file:
+__LIBRARY__	.\lib\string.c	7;"	d	file:
+__LIBRARY__	.\lib\wait.c	1;"	d	file:
+__LIBRARY__	.\lib\write.c	1;"	d	file:
+_bmap	.\fs\inode.c	/^static int _bmap(struct m_inode * inode,int block,int create)$/;"	f	file:
+_ctmp	.\lib\ctype.c	/^char _ctmp;$/;"	v
+_ctype	.\lib\ctype.c	/^unsigned char _ctype[] = {0x00,			\/* EOF *\/$/;"	v
+_exit	.\lib\_exit.c	/^volatile void _exit(int exit_code)$/;"	f
+_fs	.\kernel\traps.c	27;"	d	file:
+_hashfn	.\fs\buffer.c	68;"	d	file:
+a	.\kernel\sched.c	/^	long * a;$/;"	m	struct:__anon1	file:
+add_entry	.\fs\namei.c	/^static struct buffer_head * add_entry(struct m_inode * dir,$/;"	f	file:
+add_request	.\kernel\hd.c	/^static void add_request(struct hd_request * req)$/;"	f	file:
+argv	.\init\main.c	/^static char * argv[] = { "-",NULL };$/;"	v	file:
+attr	.\kernel\console.c	/^static unsigned char attr=0x07;$/;"	v	file:
+b	.\kernel\sched.c	/^	short b;$/;"	m	struct:__anon1	file:
+bad_rw_intr	.\kernel\hd.c	/^static void bad_rw_intr(void)$/;"	f	file:
+bh	.\kernel\hd.c	/^	struct buffer_head * bh;$/;"	m	struct:hd_request	typeref:struct:hd_request::buffer_head	file:
+blk_fn	.\fs\block_dev.c	/^typedef void (*blk_fn)(int rw, struct buffer_head * bh);$/;"	t	file:
+block_read	.\fs\block_dev.c	/^int block_read(int dev, unsigned long * pos, char * buf, int count)$/;"	f
+block_write	.\fs\block_dev.c	/^int block_write(int dev, long * pos, char * buf, int count)$/;"	f
+bmap	.\fs\inode.c	/^int bmap(struct m_inode * inode,int block)$/;"	f
+bottom	.\kernel\console.c	/^static unsigned long top=0,bottom=LINES;$/;"	v	file:
+bread	.\fs\buffer.c	/^struct buffer_head * bread(int dev,int block)$/;"	f
+brelse	.\fs\buffer.c	/^void brelse(struct buffer_head * buf)$/;"	f
+buf	.\kernel\printk.c	/^static char buf[1024];$/;"	v	file:
+buffer_init	.\fs\buffer.c	/^void buffer_init(void)$/;"	f
+buffer_wait	.\fs\buffer.c	/^static struct task_struct * buffer_wait = NULL;$/;"	v	typeref:struct:task_struct	file:
+calc_mem	.\mm\memory.c	/^void calc_mem(void)$/;"	f
+change_ldt	.\fs\exec.c	/^static unsigned long change_ldt(unsigned long text_size,unsigned long * page)$/;"	f	file:
+clear_bit	.\fs\bitmap.c	18;"	d	file:
+clear_block	.\fs\bitmap.c	7;"	d	file:
+cmd	.\kernel\hd.c	/^	int cmd;$/;"	m	struct:hd_request	file:
+columns	.\kernel\console.c	/^static unsigned long lines=LINES,columns=COLUMNS;$/;"	v	file:
+con_init	.\kernel\console.c	/^void con_init(void)$/;"	f
+con_write	.\kernel\console.c	/^void con_write(struct tty_struct * tty)$/;"	f
+controller_ready	.\kernel\hd.c	/^static int controller_ready(void)$/;"	f	file:
+copy_mem	.\kernel\fork.c	/^int copy_mem(int nr,struct task_struct * p)$/;"	f
+copy_page	.\mm\memory.c	28;"	d	file:
+copy_page_tables	.\mm\memory.c	/^int copy_page_tables(unsigned long from,unsigned long to,long size)$/;"	f
+copy_process	.\kernel\fork.c	/^int copy_process(int nr,long ebp,long edi,long esi,long gs,long none,$/;"	f
+copy_strings	.\fs\exec.c	/^static unsigned long copy_strings(int argc,char ** argv,unsigned long *page,$/;"	f	file:
+copy_to_cooked	.\kernel\tty_io.c	/^void copy_to_cooked(struct tty_struct * tty)$/;"	f
+count	.\fs\exec.c	/^static int count(char ** argv)$/;"	f	file:
+cp_block	.\fs\exec.c	21;"	d	file:
+cp_stat	.\fs\stat.c	/^static int cp_stat(struct m_inode * inode, struct stat * statbuf)$/;"	f	file:
+cr	.\kernel\console.c	/^static void cr(void)$/;"	f	file:
+create_block	.\fs\inode.c	/^int create_block(struct m_inode * inode, int block)$/;"	f
+create_tables	.\fs\exec.c	/^static unsigned long * create_tables(char * p,int argc,int envc)$/;"	f	file:
+crw_ptr	.\fs\char_dev.c	/^typedef (*crw_ptr)(int rw,unsigned minor,char * buf,int count);$/;"	t	file:
+crw_table	.\fs\char_dev.c	/^static crw_ptr crw_table[]={$/;"	v	file:
+csi_J	.\kernel\console.c	/^static void csi_J(int par)$/;"	f	file:
+csi_K	.\kernel\console.c	/^static void csi_K(int par)$/;"	f	file:
+csi_L	.\kernel\console.c	/^static void csi_L(int nr)$/;"	f	file:
+csi_M	.\kernel\console.c	/^static void csi_M(int nr)$/;"	f	file:
+csi_P	.\kernel\console.c	/^static void csi_P(int nr)$/;"	f	file:
+csi_at	.\kernel\console.c	/^static void csi_at(int nr)$/;"	f	file:
+csi_m	.\kernel\console.c	/^void csi_m(void)$/;"	f
+ctl	.\kernel\hd.c	/^	int head,sect,cyl,wpcom,lzone,ctl;$/;"	m	struct:hd_i_struct	file:
+current	.\kernel\sched.c	/^struct task_struct *current = &(init_task.task), *last_task_used_math = NULL;$/;"	v	typeref:struct:task_struct
+cyl	.\kernel\hd.c	/^	int cyl;$/;"	m	struct:hd_request	file:
+cyl	.\kernel\hd.c	/^	int head,sect,cyl,wpcom,lzone,ctl;$/;"	m	struct:hd_i_struct	file:
+del	.\kernel\console.c	/^static void del(void)$/;"	f	file:
+delete_char	.\kernel\console.c	/^static void delete_char(void)$/;"	f	file:
+delete_line	.\kernel\console.c	/^static void delete_line(void)$/;"	f	file:
+die	.\kernel\traps.c	/^static void die(char * str,long esp_ptr,long nr)$/;"	f	file:
+die	.\tools\build.c	/^void die(char * str)$/;"	f
+dir_namei	.\fs\namei.c	/^static struct m_inode * dir_namei(const char * pathname,$/;"	f	file:
+do_bounds	.\kernel\traps.c	/^void do_bounds(long esp, long error_code)$/;"	f
+do_coprocessor_error	.\kernel\traps.c	/^void do_coprocessor_error(long esp, long error_code)$/;"	f
+do_coprocessor_segment_overrun	.\kernel\traps.c	/^void do_coprocessor_segment_overrun(long esp, long error_code)$/;"	f
+do_debug	.\kernel\traps.c	/^void do_debug(long esp, long error_code)$/;"	f
+do_device_not_available	.\kernel\traps.c	/^void do_device_not_available(long esp, long error_code)$/;"	f
+do_div	.\kernel\vsprintf.c	29;"	d	file:
+do_divide_error	.\kernel\traps.c	/^void do_divide_error(long esp, long error_code)$/;"	f
+do_double_fault	.\kernel\traps.c	/^void do_double_fault(long esp, long error_code)$/;"	f
+do_execve	.\fs\exec.c	/^int do_execve(unsigned long * eip,long tmp,char * filename,$/;"	f
+do_exit	.\kernel\exit.c	/^int do_exit(long code)$/;"	f
+do_general_protection	.\kernel\traps.c	/^void do_general_protection(long esp, long error_code)$/;"	f
+do_hd	.\kernel\hd.c	/^void (*do_hd)(void) = NULL;$/;"	v
+do_int3	.\kernel\traps.c	/^void do_int3(long * esp, long error_code,$/;"	f
+do_invalid_TSS	.\kernel\traps.c	/^void do_invalid_TSS(long esp,long error_code)$/;"	f
+do_invalid_op	.\kernel\traps.c	/^void do_invalid_op(long esp, long error_code)$/;"	f
+do_kill	.\kernel\exit.c	/^void do_kill(long pid,long sig,int priv)$/;"	f
+do_mount	.\fs\super.c	/^struct super_block * do_mount(int dev)$/;"	f
+do_nmi	.\kernel\traps.c	/^void do_nmi(long esp, long error_code)$/;"	f
+do_no_page	.\mm\memory.c	/^void do_no_page(unsigned long error_code,unsigned long address)$/;"	f
+do_overflow	.\kernel\traps.c	/^void do_overflow(long esp, long error_code)$/;"	f
+do_request	.\kernel\hd.c	/^static void do_request(void)$/;"	f	file:
+do_reserved	.\kernel\traps.c	/^void do_reserved(long esp, long error_code)$/;"	f
+do_segment_not_present	.\kernel\traps.c	/^void do_segment_not_present(long esp,long error_code)$/;"	f
+do_stack_segment	.\kernel\traps.c	/^void do_stack_segment(long esp,long error_code)$/;"	f
+do_timer	.\kernel\sched.c	/^void do_timer(long cpl)$/;"	f
+do_tty_interrupt	.\kernel\tty_io.c	/^void do_tty_interrupt(int tty)$/;"	f
+do_wp_page	.\mm\memory.c	/^void do_wp_page(unsigned long error_code,unsigned long address)$/;"	f
+drive_busy	.\kernel\hd.c	/^static int drive_busy(void)$/;"	f	file:
+dupfd	.\fs\fcntl.c	/^static int dupfd(unsigned int fd, unsigned int arg)$/;"	f	file:
+empty_dir	.\fs\namei.c	/^static int empty_dir(struct m_inode * inode)$/;"	f	file:
+envp	.\init\main.c	/^static char * envp[] = { "HOME=\/usr\/root", NULL };$/;"	v	file:
+errno	.\lib\errno.c	/^int errno;$/;"	v
+errors	.\kernel\hd.c	/^	int errors;$/;"	m	struct:hd_request	file:
+extern	.\lib\string.c	5;"	d	file:
+file_read	.\fs\file_dev.c	/^int file_read(struct m_inode * inode, struct file * filp, char * buf, int count)$/;"	f
+file_table	.\fs\file_table.c	/^struct file file_table[NR_FILE];$/;"	v	typeref:struct:file
+file_write	.\fs\file_dev.c	/^int file_write(struct m_inode * inode, struct file * filp, char * buf, int count)$/;"	f
+find_buffer	.\fs\buffer.c	/^static struct buffer_head * find_buffer(int dev, int block)$/;"	f	file:
+find_empty_process	.\kernel\fork.c	/^int find_empty_process(void)$/;"	f
+find_entry	.\fs\namei.c	/^static struct buffer_head * find_entry(struct m_inode * dir,$/;"	f	file:
+find_first_zero	.\fs\bitmap.c	23;"	d	file:
+flush	.\fs\tty_ioctl.c	/^static void flush(struct tty_queue * queue)$/;"	f	file:
+free_block	.\fs\bitmap.c	/^void free_block(int dev, int block)$/;"	f
+free_dind	.\fs\truncate.c	/^static void free_dind(int dev,int block)$/;"	f	file:
+free_ind	.\fs\truncate.c	/^static void free_ind(int dev,int block)$/;"	f	file:
+free_inode	.\fs\bitmap.c	/^void free_inode(struct m_inode * inode)$/;"	f
+free_list	.\fs\buffer.c	/^static struct buffer_head * free_list;$/;"	v	typeref:struct:buffer_head	file:
+free_page	.\mm\memory.c	/^void free_page(unsigned long addr)$/;"	f
+free_page_tables	.\mm\memory.c	/^int free_page_tables(unsigned long from,unsigned long size)$/;"	f
+get_dir	.\fs\namei.c	/^static struct m_inode * get_dir(const char * pathname)$/;"	f	file:
+get_empty_inode	.\fs\inode.c	/^struct m_inode * get_empty_inode(void)$/;"	f
+get_free_page	.\mm\memory.c	/^unsigned long get_free_page(void)$/;"	f
+get_hash_table	.\fs\buffer.c	/^struct buffer_head * get_hash_table(int dev, int block)$/;"	f
+get_pipe_inode	.\fs\inode.c	/^struct m_inode * get_pipe_inode(void)$/;"	f
+get_seg_byte	.\kernel\traps.c	15;"	d	file:
+get_seg_long	.\kernel\traps.c	21;"	d	file:
+get_termio	.\fs\tty_ioctl.c	/^static int get_termio(struct tty_struct * tty, struct termio * termio)$/;"	f	file:
+get_termios	.\fs\tty_ioctl.c	/^static int get_termios(struct tty_struct * tty, struct termios * termios)$/;"	f	file:
+getblk	.\fs\buffer.c	/^struct buffer_head * getblk(int dev,int block)$/;"	f
+gotoxy	.\kernel\console.c	/^static inline void gotoxy(unsigned int new_x,unsigned int new_y)$/;"	f	file:
+hash	.\fs\buffer.c	69;"	d	file:
+hash_table	.\fs\buffer.c	/^struct buffer_head * hash_table[NR_HASH];$/;"	v	typeref:struct:buffer_head
+hd	.\kernel\hd.c	/^	int hd;		\/* -1 if no request *\/$/;"	m	struct:hd_request	file:
+hd	.\kernel\hd.c	/^} hd[5*MAX_HD]={{0,0},};$/;"	v	typeref:struct:hd_struct	file:
+hd_i_struct	.\kernel\hd.c	/^static struct hd_i_struct{$/;"	s	file:
+hd_info	.\kernel\hd.c	/^	} hd_info[]= { HD_TYPE };$/;"	v	typeref:struct:hd_i_struct	file:
+hd_init	.\kernel\hd.c	/^void hd_init(void)$/;"	f
+hd_out	.\kernel\hd.c	/^static void hd_out(unsigned int drive,unsigned int nsect,unsigned int sect,$/;"	f	file:
+hd_request	.\kernel\hd.c	/^static struct hd_request {$/;"	s	file:
+hd_struct	.\kernel\hd.c	/^static struct hd_struct {$/;"	s	file:
+head	.\kernel\hd.c	/^	int head,sect,cyl,wpcom,lzone,ctl;$/;"	m	struct:hd_i_struct	file:
+head	.\kernel\hd.c	/^	int head;$/;"	m	struct:hd_request	file:
+iget	.\fs\inode.c	/^struct m_inode * iget(int dev,int nr)$/;"	f
+init	.\init\main.c	/^void init(void)$/;"	f
+init	.\kernel\serial.c	/^static void init(int port)$/;"	f	file:
+init_task	.\kernel\sched.c	/^static union task_union init_task = {INIT_TASK,};$/;"	v	typeref:union:task_union	file:
+inline	.\lib\string.c	6;"	d	file:
+inode_table	.\fs\inode.c	/^struct m_inode inode_table[NR_INODE]={{0,},};$/;"	v	typeref:struct:m_inode
+insert_char	.\kernel\console.c	/^static void insert_char(void)$/;"	f	file:
+insert_into_queues	.\fs\buffer.c	/^static inline void insert_into_queues(struct buffer_head * bh)$/;"	f	file:
+insert_line	.\kernel\console.c	/^static void insert_line(void)$/;"	f	file:
+interruptible_sleep_on	.\kernel\sched.c	/^void interruptible_sleep_on(struct task_struct **p)$/;"	f
+invalidate	.\mm\memory.c	10;"	d	file:
+ioctl_ptr	.\fs\ioctl.c	/^typedef int (*ioctl_ptr)(int dev,int cmd,int arg);$/;"	t	file:
+ioctl_table	.\fs\ioctl.c	/^static ioctl_ptr ioctl_table[]={$/;"	v	file:
+iput	.\fs\inode.c	/^void iput(struct m_inode * inode)$/;"	f
+is_digit	.\kernel\vsprintf.c	10;"	d	file:
+jiffies	.\kernel\sched.c	/^long volatile jiffies=0;$/;"	v
+kernel_mktime	.\kernel\mktime.c	/^long kernel_mktime(struct tm * tm)$/;"	f
+last_allocated_inode	.\fs\inode.c	/^static volatile int last_allocated_inode = 0;$/;"	v	file:
+last_pid	.\kernel\fork.c	/^long last_pid=0;$/;"	v
+last_task_used_math	.\kernel\sched.c	/^struct task_struct *current = &(init_task.task), *last_task_used_math = NULL;$/;"	v	typeref:struct:
+lf	.\kernel\console.c	/^static void lf(void)$/;"	f	file:
+lines	.\kernel\console.c	/^static unsigned long lines=LINES,columns=COLUMNS;$/;"	v	file:
+ll_rw_block	.\fs\block_dev.c	/^void ll_rw_block(int rw, struct buffer_head * bh)$/;"	f
+lock_buffer	.\kernel\hd.c	/^static inline void lock_buffer(struct buffer_head * bh)$/;"	f	file:
+lock_inode	.\fs\inode.c	/^static inline void lock_inode(struct m_inode * inode)$/;"	f	file:
+lzone	.\kernel\hd.c	/^	int head,sect,cyl,wpcom,lzone,ctl;$/;"	m	struct:hd_i_struct	file:
+main	.\init\main.c	/^void main(void)		\/* This really IS void, no error here. *\/$/;"	f
+main	.\tools\build.c	/^int main(int argc, char ** argv)$/;"	f
+match	.\fs\namei.c	/^static int match(int len,const char * name,struct dir_entry * de)$/;"	f	file:
+math_state_restore	.\kernel\sched.c	/^void math_state_restore()$/;"	f
+mem_map	.\mm\memory.c	/^static unsigned short mem_map [ PAGING_PAGES ] = {0,};$/;"	v	file:
+month	.\kernel\mktime.c	/^static int month[12] = {$/;"	v	file:
+mount_root	.\fs\super.c	/^void mount_root(void)$/;"	f
+namei	.\fs\namei.c	/^struct m_inode * namei(const char * pathname)$/;"	f
+new_block	.\fs\bitmap.c	/^int new_block(int dev)$/;"	f
+new_inode	.\fs\bitmap.c	/^struct m_inode * new_inode(int dev)$/;"	f
+next	.\kernel\hd.c	/^	struct hd_request * next;$/;"	m	struct:hd_request	typeref:struct:hd_request::hd_request	file:
+npar	.\kernel\console.c	/^static unsigned long npar,par[NPAR];$/;"	v	file:
+nr_sects	.\kernel\hd.c	/^	long nr_sects;$/;"	m	struct:hd_struct	file:
+nsector	.\kernel\hd.c	/^	int nsector;$/;"	m	struct:hd_request	file:
+number	.\kernel\vsprintf.c	/^static char * number(char * str, int num, int base, int size, int precision$/;"	f	file:
+open	.\lib\open.c	/^int open(const char * filename, int flag, ...)$/;"	f
+open_namei	.\fs\namei.c	/^int open_namei(const char * pathname, int flag, int mode,$/;"	f
+origin	.\kernel\console.c	/^static unsigned long origin=SCREEN_START;$/;"	v	file:
+panic	.\kernel\panic.c	/^volatile void panic(const char * s)$/;"	f
+par	.\kernel\console.c	/^static unsigned long npar,par[NPAR];$/;"	v	file:
+permission	.\fs\namei.c	/^static int permission(struct m_inode * inode,int mask)$/;"	f	file:
+port_read	.\kernel\hd.c	68;"	d	file:
+port_write	.\kernel\hd.c	71;"	d	file:
+pos	.\kernel\console.c	/^static unsigned long pos;$/;"	v	file:
+printbuf	.\init\main.c	/^static char printbuf[1024];$/;"	v	file:
+printf	.\init\main.c	/^static int printf(const char *fmt, ...)$/;"	f	file:
+printk	.\kernel\printk.c	/^int printk(const char *fmt, ...)$/;"	f
+put_page	.\mm\memory.c	/^unsigned long put_page(unsigned long page,unsigned long address)$/;"	f
+ques	.\kernel\console.c	/^static unsigned long ques=0;$/;"	v	file:
+rd_blk	.\fs\block_dev.c	/^static blk_fn rd_blk[]={$/;"	v	file:
+read_area	.\fs\exec.c	/^int read_area(struct m_inode * inode,long size)$/;"	f
+read_head	.\fs\exec.c	/^int read_head(struct m_inode * inode,int blocks)$/;"	f
+read_ind	.\fs\exec.c	/^int read_ind(int dev,int ind,long size,unsigned long offset)$/;"	f
+read_inode	.\fs\inode.c	/^static void read_inode(struct m_inode * inode)$/;"	f	file:
+read_intr	.\kernel\hd.c	/^static void read_intr(void)$/;"	f	file:
+read_pipe	.\fs\pipe.c	/^int read_pipe(struct m_inode * inode, char * buf, int count)$/;"	f
+release	.\kernel\exit.c	/^void release(struct task_struct * p)$/;"	f
+remove_from_queues	.\fs\buffer.c	/^static inline void remove_from_queues(struct buffer_head * bh)$/;"	f	file:
+request	.\kernel\hd.c	/^} request[NR_REQUEST];$/;"	v	typeref:struct:hd_request	file:
+reset_controller	.\kernel\hd.c	/^static void reset_controller(void)$/;"	f	file:
+reset_hd	.\kernel\hd.c	/^static void reset_hd(int nr)$/;"	f	file:
+respond	.\kernel\console.c	/^static void respond(struct tty_struct * tty)$/;"	f	file:
+restore_cur	.\kernel\console.c	/^static void restore_cur(void)$/;"	f	file:
+ri	.\kernel\console.c	/^static void ri(void)$/;"	f	file:
+rs_init	.\kernel\serial.c	/^void rs_init(void)$/;"	f
+rs_write	.\kernel\serial.c	/^void rs_write(struct tty_struct * tty)$/;"	f
+rw_abs_hd	.\kernel\hd.c	/^void rw_abs_hd(int rw,unsigned int nr,unsigned int sec,unsigned int head,$/;"	f
+rw_char	.\fs\char_dev.c	/^int rw_char(int rw,int dev, char * buf, int count)$/;"	f
+rw_hd	.\kernel\hd.c	/^void rw_hd(int rw, struct buffer_head * bh)$/;"	f
+rw_tty	.\fs\char_dev.c	/^static int rw_tty(int rw,unsigned minor,char * buf,int count)$/;"	f	file:
+rw_ttyx	.\fs\char_dev.c	/^static int rw_ttyx(int rw,unsigned minor,char * buf,int count)$/;"	f	file:
+save_cur	.\kernel\console.c	/^static void save_cur(void)$/;"	f	file:
+saved_x	.\kernel\console.c	/^static int saved_x=0;$/;"	v	file:
+saved_y	.\kernel\console.c	/^static int saved_y=0;$/;"	v	file:
+sched_init	.\kernel\sched.c	/^void sched_init(void)$/;"	f
+schedule	.\kernel\sched.c	/^void schedule(void)$/;"	f
+scr_end	.\kernel\console.c	/^static unsigned long scr_end=SCREEN_START+LINES*COLUMNS*2;$/;"	v	file:
+scrdown	.\kernel\console.c	/^static void scrdown(void)$/;"	f	file:
+scrup	.\kernel\console.c	/^static void scrup(void)$/;"	f	file:
+sect	.\kernel\hd.c	/^	int head,sect,cyl,wpcom,lzone,ctl;$/;"	m	struct:hd_i_struct	file:
+sector	.\kernel\hd.c	/^	int sector;$/;"	m	struct:hd_request	file:
+send_break	.\fs\tty_ioctl.c	/^static void send_break(struct tty_struct * tty)$/;"	f	file:
+send_sig	.\kernel\exit.c	/^static inline void send_sig(long sig,struct task_struct * p,int priv)$/;"	f	file:
+set_bit	.\fs\bitmap.c	13;"	d	file:
+set_bit	.\fs\super.c	9;"	d	file:
+set_cursor	.\kernel\console.c	/^static inline void set_cursor(void)$/;"	f	file:
+set_origin	.\kernel\console.c	/^static inline void set_origin(void)$/;"	f	file:
+set_termio	.\fs\tty_ioctl.c	/^static int set_termio(struct tty_struct * tty, struct termio * termio)$/;"	f	file:
+set_termios	.\fs\tty_ioctl.c	/^static int set_termios(struct tty_struct * tty, struct termios * termios)$/;"	f	file:
+skip_atoi	.\kernel\vsprintf.c	/^static int skip_atoi(const char **s)$/;"	f	file:
+sleep_if_empty	.\kernel\tty_io.c	/^static void sleep_if_empty(struct tty_queue * queue)$/;"	f	file:
+sleep_if_full	.\kernel\tty_io.c	/^static void sleep_if_full(struct tty_queue * queue)$/;"	f	file:
+sleep_on	.\kernel\sched.c	/^void sleep_on(struct task_struct **p)$/;"	f
+sorting	.\kernel\hd.c	/^static int sorting=0;$/;"	v	file:
+stack	.\kernel\sched.c	/^	char stack[PAGE_SIZE];$/;"	m	union:task_union	file:
+stack_start	.\kernel\sched.c	/^	} stack_start = { & user_stack [PAGE_SIZE>>2] , 0x10 };$/;"	v	typeref:struct:__anon1
+start_buffer	.\fs\buffer.c	/^struct buffer_head * start_buffer = (struct buffer_head *) &end;$/;"	v	typeref:struct:buffer_head
+start_sect	.\kernel\hd.c	/^	long start_sect;$/;"	m	struct:hd_struct	file:
+startup_time	.\kernel\sched.c	/^long startup_time=0;$/;"	v
+state	.\kernel\console.c	/^static unsigned long state=0;$/;"	v	file:
+super_block	.\fs\super.c	/^struct super_block super_block[NR_SUPER];$/;"	v	typeref:struct:super_block
+sync_dev	.\fs\buffer.c	/^static int sync_dev(int dev)$/;"	f	file:
+sync_inodes	.\fs\inode.c	/^void sync_inodes(void)$/;"	f
+sys_access	.\fs\open.c	/^int sys_access(const char * filename,int mode)$/;"	f
+sys_acct	.\kernel\sys.c	/^int sys_acct()$/;"	f
+sys_alarm	.\kernel\sched.c	/^int sys_alarm(long seconds)$/;"	f
+sys_break	.\kernel\sys.c	/^int sys_break()$/;"	f
+sys_brk	.\kernel\sys.c	/^int sys_brk(unsigned long end_data_seg)$/;"	f
+sys_chdir	.\fs\open.c	/^int sys_chdir(const char * filename)$/;"	f
+sys_chmod	.\fs\open.c	/^int sys_chmod(const char * filename,int mode)$/;"	f
+sys_chown	.\fs\open.c	/^int sys_chown(const char * filename,int uid,int gid)$/;"	f
+sys_chroot	.\fs\open.c	/^int sys_chroot(const char * filename)$/;"	f
+sys_close	.\fs\open.c	/^int sys_close(unsigned int fd)$/;"	f
+sys_creat	.\fs\open.c	/^int sys_creat(const char * pathname, int mode)$/;"	f
+sys_dup	.\fs\fcntl.c	/^int sys_dup(unsigned int fildes)$/;"	f
+sys_dup2	.\fs\fcntl.c	/^int sys_dup2(unsigned int oldfd, unsigned int newfd)$/;"	f
+sys_exit	.\kernel\exit.c	/^int sys_exit(int error_code)$/;"	f
+sys_fcntl	.\fs\fcntl.c	/^int sys_fcntl(unsigned int fd, unsigned int cmd, unsigned long arg)$/;"	f
+sys_fstat	.\fs\stat.c	/^int sys_fstat(unsigned int fd, struct stat * statbuf)$/;"	f
+sys_ftime	.\kernel\sys.c	/^int sys_ftime()$/;"	f
+sys_getegid	.\kernel\sched.c	/^int sys_getegid(void)$/;"	f
+sys_geteuid	.\kernel\sched.c	/^int sys_geteuid(void)$/;"	f
+sys_getgid	.\kernel\sched.c	/^int sys_getgid(void)$/;"	f
+sys_getpgrp	.\kernel\sys.c	/^int sys_getpgrp(void)$/;"	f
+sys_getpid	.\kernel\sched.c	/^int sys_getpid(void)$/;"	f
+sys_getppid	.\kernel\sched.c	/^int sys_getppid(void)$/;"	f
+sys_getuid	.\kernel\sched.c	/^int sys_getuid(void)$/;"	f
+sys_gtty	.\kernel\sys.c	/^int sys_gtty()$/;"	f
+sys_ioctl	.\fs\ioctl.c	/^int sys_ioctl(unsigned int fd, unsigned int cmd, unsigned long arg)$/;"	f
+sys_kill	.\kernel\exit.c	/^int sys_kill(int pid,int sig)$/;"	f
+sys_link	.\fs\namei.c	/^int sys_link(const char * oldname, const char * newname)$/;"	f
+sys_lock	.\kernel\sys.c	/^int sys_lock()$/;"	f
+sys_lseek	.\fs\read_write.c	/^int sys_lseek(unsigned int fd,off_t offset, int origin)$/;"	f
+sys_mkdir	.\fs\namei.c	/^int sys_mkdir(const char * pathname, int mode)$/;"	f
+sys_mknod	.\kernel\sys.c	/^int sys_mknod()$/;"	f
+sys_mount	.\kernel\sys.c	/^int sys_mount()$/;"	f
+sys_mpx	.\kernel\sys.c	/^int sys_mpx()$/;"	f
+sys_nice	.\kernel\sched.c	/^int sys_nice(long increment)$/;"	f
+sys_open	.\fs\open.c	/^int sys_open(const char * filename,int flag,int mode)$/;"	f
+sys_pause	.\kernel\sched.c	/^int sys_pause(void)$/;"	f
+sys_phys	.\kernel\sys.c	/^int sys_phys()$/;"	f
+sys_pipe	.\fs\pipe.c	/^int sys_pipe(unsigned long * fildes)$/;"	f
+sys_prof	.\kernel\sys.c	/^int sys_prof()$/;"	f
+sys_ptrace	.\kernel\sys.c	/^int sys_ptrace()$/;"	f
+sys_read	.\fs\read_write.c	/^int sys_read(unsigned int fd,char * buf,int count)$/;"	f
+sys_rename	.\kernel\sys.c	/^int sys_rename()$/;"	f
+sys_rmdir	.\fs\namei.c	/^int sys_rmdir(const char * name)$/;"	f
+sys_setgid	.\kernel\sys.c	/^int sys_setgid(int gid)$/;"	f
+sys_setpgid	.\kernel\sys.c	/^int sys_setpgid(int pid, int pgid)$/;"	f
+sys_setsid	.\kernel\sys.c	/^int sys_setsid(void)$/;"	f
+sys_setuid	.\kernel\sys.c	/^int sys_setuid(int uid)$/;"	f
+sys_setup	.\kernel\hd.c	/^int sys_setup(void)$/;"	f
+sys_signal	.\kernel\sched.c	/^int sys_signal(long signal,long addr,long restorer)$/;"	f
+sys_stat	.\fs\stat.c	/^int sys_stat(char * filename, struct stat * statbuf)$/;"	f
+sys_stime	.\kernel\sys.c	/^int sys_stime(long * tptr)$/;"	f
+sys_stty	.\kernel\sys.c	/^int sys_stty()$/;"	f
+sys_sync	.\fs\buffer.c	/^int sys_sync(void)$/;"	f
+sys_time	.\kernel\sys.c	/^int sys_time(long * tloc)$/;"	f
+sys_times	.\kernel\sys.c	/^int sys_times(struct tms * tbuf)$/;"	f
+sys_ulimit	.\kernel\sys.c	/^int sys_ulimit()$/;"	f
+sys_umask	.\kernel\sys.c	/^int sys_umask(int mask)$/;"	f
+sys_umount	.\kernel\sys.c	/^int sys_umount()$/;"	f
+sys_uname	.\kernel\sys.c	/^int sys_uname(struct utsname * name)$/;"	f
+sys_unlink	.\fs\namei.c	/^int sys_unlink(const char * name)$/;"	f
+sys_ustat	.\kernel\sys.c	/^int sys_ustat(int dev,struct ustat * ubuf)$/;"	f
+sys_utime	.\fs\open.c	/^int sys_utime(char * filename, struct utimbuf * times)$/;"	f
+sys_waitpid	.\kernel\exit.c	/^int sys_waitpid(pid_t pid,int * stat_addr, int options)$/;"	f
+sys_write	.\fs\read_write.c	/^int sys_write(unsigned int fd,char * buf,int count)$/;"	f
+table_list	.\kernel\tty_io.c	/^struct tty_queue * table_list[]={$/;"	v	typeref:struct:tty_queue
+task	.\kernel\sched.c	/^	struct task_struct task;$/;"	m	union:task_union	typeref:struct:task_union::task_struct	file:
+task	.\kernel\sched.c	/^struct task_struct * task[NR_TASKS] = {&(init_task.task), };$/;"	v	typeref:struct:task_struct
+task_union	.\kernel\sched.c	/^union task_union {$/;"	u	file:
+this_request	.\kernel\hd.c	/^static struct hd_request * this_request = NULL;$/;"	v	typeref:struct:hd_request	file:
+time_init	.\init\main.c	/^static void time_init(void)$/;"	f	file:
+top	.\kernel\console.c	/^static unsigned long top=0,bottom=LINES;$/;"	v	file:
+trap_init	.\kernel\traps.c	/^void trap_init(void)$/;"	f
+truncate	.\fs\truncate.c	/^void truncate(struct m_inode * inode)$/;"	f
+tty_init	.\kernel\tty_io.c	/^void tty_init(void)$/;"	f
+tty_intr	.\kernel\tty_io.c	/^void tty_intr(struct tty_struct * tty, int signal)$/;"	f
+tty_ioctl	.\fs\tty_ioctl.c	/^int tty_ioctl(int dev, int cmd, int arg)$/;"	f
+tty_read	.\kernel\tty_io.c	/^int tty_read(unsigned channel, char * buf, int nr)$/;"	f
+tty_table	.\kernel\tty_io.c	/^struct tty_struct tty_table[] = {$/;"	v	typeref:struct:tty_struct
+tty_write	.\kernel\tty_io.c	/^int tty_write(unsigned channel, char * buf, int nr)$/;"	f
+un_wp_page	.\mm\memory.c	/^void un_wp_page(unsigned long * table_entry)$/;"	f
+unexpected_hd_interrupt	.\kernel\hd.c	/^void unexpected_hd_interrupt(void)$/;"	f
+unlock_buffer	.\kernel\hd.c	/^static inline void unlock_buffer(struct buffer_head * bh)$/;"	f	file:
+unlock_inode	.\fs\inode.c	/^static inline void unlock_inode(struct m_inode * inode)$/;"	f	file:
+usage	.\tools\build.c	/^void usage(void)$/;"	f
+user_stack	.\kernel\sched.c	/^long user_stack [ PAGE_SIZE>>2 ] ;$/;"	v
+verify_area	.\kernel\fork.c	/^void verify_area(void * addr,int size)$/;"	f
+vsprintf	.\kernel\vsprintf.c	/^int vsprintf(char *buf, const char *fmt, va_list args)$/;"	f
+wait	.\lib\wait.c	/^pid_t wait(int * wait_stat)$/;"	f
+wait_for_request	.\kernel\hd.c	/^static struct task_struct * wait_for_request=NULL;$/;"	v	typeref:struct:task_struct	file:
+wait_on_buffer	.\fs\buffer.c	/^static inline void wait_on_buffer(struct buffer_head * bh)$/;"	f	file:
+wait_on_buffer	.\kernel\hd.c	/^static inline void wait_on_buffer(struct buffer_head * bh)$/;"	f	file:
+wait_on_inode	.\fs\inode.c	/^static inline void wait_on_inode(struct m_inode * inode)$/;"	f	file:
+wait_until_sent	.\fs\tty_ioctl.c	/^static void wait_until_sent(struct tty_struct * tty)$/;"	f	file:
+wake_up	.\kernel\sched.c	/^void wake_up(struct task_struct **p)$/;"	f
+win_result	.\kernel\hd.c	/^static int win_result(void)$/;"	f	file:
+wpcom	.\kernel\hd.c	/^	int head,sect,cyl,wpcom,lzone,ctl;$/;"	m	struct:hd_i_struct	file:
+write_inode	.\fs\inode.c	/^static void write_inode(struct m_inode * inode)$/;"	f	file:
+write_intr	.\kernel\hd.c	/^static void write_intr(void)$/;"	f	file:
+write_pipe	.\fs\pipe.c	/^int write_pipe(struct m_inode * inode, char * buf, int count)$/;"	f
+write_verify	.\mm\memory.c	/^void write_verify(unsigned long address)$/;"	f
+x	.\kernel\console.c	/^static unsigned long x,y;$/;"	v	file:
+y	.\kernel\console.c	/^static unsigned long x,y;$/;"	v	file:
